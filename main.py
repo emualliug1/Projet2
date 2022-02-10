@@ -11,9 +11,9 @@ from classp2 import*
 ##############################################
 ## Programme principal :                    ##
 ##############################################
-smaitre = Scraper("https://books.toscrape.com/")
-r1 = Information()
-lancer_programme(smaitre,r1)
+smaitre = Scraper("https://books.toscrape.com/") #initialisation du scraper avec l'adresse du site
+r1 = Information()                               #initialisation de la class informmation
+lancer_programme(smaitre,r1)                     #lancement du scraping avec enregistrement des donnees + photos
 
 
 

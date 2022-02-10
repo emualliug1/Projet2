@@ -22,7 +22,7 @@ def lancer_programme(scraper,repertoire):
         for url1 in scraper.recuperer_urls_livres():
             scraper.changer_url(url1)
             repertoire.enregistrer_imgages_livres(scraper.recuperer_urls_images())
-            repertoire.ecrire_information_livre(scraper,repertoire)
+            repertoire.ecrire_information_livre(scraper, repertoire)
 
         if int(scraper.livres_max) > 20:
 
@@ -32,7 +32,7 @@ def lancer_programme(scraper,repertoire):
                 for url2 in scraper.recuperer_urls_livres():
                     scraper.changer_url(url2)
                     repertoire.enregistrer_imgages_livres(scraper.recuperer_urls_images())
-                    repertoire.ecrire_information_livre(scraper,repertoire)
+                    repertoire.ecrire_information_livre(scraper, repertoire)
 
 
     print("--- %s seconds ---" % (round(time.time()) - round(start_time)))

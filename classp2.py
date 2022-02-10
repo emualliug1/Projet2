@@ -26,7 +26,7 @@ class Scraper(object):
     def recuperer_urls_categories(self):
         "recuperation des urls des categories"
         self.urls_categories=[]
-        for i in self.soup.find_all('a', href=True):
+        for i in self.soup.find_all("a", href=True):
             self.urls_categories.append("https://books.toscrape.com/" + i['href'])
         return self.urls_categories[3:-41]
 
@@ -139,7 +139,7 @@ class Information(object):
 
     def creer_fichier_csv(self,nom_fichier):
         "creation d'un fichier csv"
-        nom_fichier_csv=nom_fichier+".csv"
+        nom_fichier_csv = nom_fichier+".csv"
         self.fichier = os.path.join(self.creer_sous_repertoire_p2,nom_fichier_csv)
         with open(self.fichier, "a", newline="", encoding="utf-8") as csvfile:
             writer = csv.writer(csvfile)
