@@ -41,7 +41,7 @@ Vous pouvez aussi créer un nouveau repertoire avec la commande: `mkdir`
 2. Une fois dans le bon repertoire il vous suffit de taper:
 `git clone ***url du projet github***`
 
-3. Créer un environnement virtuel avec `venv`:
+3. Créer un environnement virtuel avec venv :
 `python -m venv ***nom de l'environnement***` : pour créer l'environnement virtuel --- exemple : `py -m venv env`
 
 4. Activez l'environnement virtuel :
