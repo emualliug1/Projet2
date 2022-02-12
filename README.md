@@ -51,6 +51,6 @@ Vous pouvez aussi créer un nouveau repertoire avec la commande: `mkdir`
 
 A la fin du chargement:
 
-- un repertoire P2 contient 50 fichiers csv avec le nom de la catégorie de livre sur chaque fichier contenant les données de chaque livre sous cette catégorie.
+- un repertoire P2 qui contient 50 fichiers .csv avec le nom de la catégorie de livre sur chaque fichier contenant les données de chaque livre sous cette catégorie.
 
 - un repertoire images avec les 1000 images des livres.
