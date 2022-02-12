@@ -15,7 +15,7 @@ def lancer_programme(scraper,repertoire):
 
     TEMPS_LANCEMENT_PROGRAMME_DEBUT = time.time()
 
-    for url0 in tqdm(scraper.recuperer_urls_categories(),desc="Chargement"):
+    for url0 in tqdm(scraper.recuperer_urls_categories(),desc='Chargement'):
 
         scraper.changer_url(url0)
         repertoire.creer_repertoire()
@@ -37,7 +37,7 @@ def lancer_programme(scraper,repertoire):
                     scraper.changer_url(url3)
                     repertoire.enregistrer_imgages_livres(scraper.recuperer_urls_images())
                     repertoire.ecrire_information_livre(scraper, repertoire,url3)
-    print("--- %s seconds ---" % (round(time.time()) - round(TEMPS_LANCEMENT_PROGRAMME_DEBUT)))
+    print('--- %s seconds ---' % (round(time.time()) - round(TEMPS_LANCEMENT_PROGRAMME_DEBUT)))
 
 
 
