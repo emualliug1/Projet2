@@ -1,4 +1,5 @@
 Programme de scraping du site :
+
 https://books.toscrape.com
 
 Une application pour récupérer les données suivantes au moment de l'exécution :
@@ -31,9 +32,7 @@ https://www.python.org/downloads/
 
 Une fois Python installé :
 
-1. Ouvrir une invite de commande et utiliser la commande : 
-
-`cd` pour aller dans le repertoire ou vous voulez copier le projet.
+1. Ouvrir une invite de commande et utiliser la commande :`cd` pour aller dans le repertoire ou vous voulez copier le projet.
 Vous pouvez aussi créer un nouveau repertoire avec la commande: `mkdir`
 
 2. Une fois dans le bon repertoire il vous suffit de taper:
