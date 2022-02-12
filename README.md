@@ -29,28 +29,28 @@ Si Python n'est pas installé sur votre machine :
 https://www.python.org/downloads/
  
 
-une fois Python installé:
+Une fois Python installé:
 
-1.ouvrir une invite de commande et utiliser la commande: 
+1. Ouvrir une invite de commande et utiliser la commande: 
 
 `cd` pour aller dans le repertoire ou vous voulez copier le projet.
 vous pouvez aussi creer un nouveau repertoire avec la commande: `mkdir`
 
-2.une fois dans le bon repertoire il vous suffit de taper:
+2. Une fois dans le bon repertoire il vous suffit de taper:
 `git clone ***url du projet github***`
 
-3.Créer un environnement virtuel avec `venv`:
+3. Créer un environnement virtuel avec `venv`:
 `python -m venv ***nom de l'environnement***` : pour créer l'environnement virtuel - exemple : `py -m venv env`
 
-4.Activez l'environnement virtuel:
+4. Activez l'environnement virtuel:
 `***nom de l'environnement***/Scripts/activate.bat` - ex: `env/Scripts/activate.bat`
 
-5.Installez les packages avec pip: `pip install -r requirements.txt`
+5. Installez les packages avec pip: `pip install -r requirements.txt`
 
-6.Lancez le programme avec : `python3 main.py`
+6. Lancez le programme avec : `python3 main.py`
 
 
-a la fin du chargement:
+A la fin du chargement:
 
 - un repertoire P2 contient 50 fichiers csv avec le nom de la catégorie de livre sur chaque fichier contenant les données de chaque livre sous cette catégorie.
 
